@@ -1,7 +1,9 @@
-FROM ubuntu:latest
+FROM python:3.10-slim
 
-# Expondo a porta 3000
-EXPOSE 3000
+WORKDIR /app
 
-# Entry point padrão
-ENTRYPOINT ["top", "-b"]
+COPY . /app
+
+RUN pip install --no-cache-dir requests python-dateutil
+
+CMD ["python", "app.py"]
