@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: app-desafio-automy
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./src:/app  
+    stdin_open: true    
+    tty: true
