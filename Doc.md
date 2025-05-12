@@ -25,7 +25,7 @@ O aplicativo está disponível por meio de uma interface web. O usuário deve:
 2. Informar o endereço de e-mail no campo apropriado.
 3. Clicar no botão "Consultar".
 4. Visualizar na tela as próximas baterias agendadas, caso existam.
-5. Caso deseje, poderá visualizar as baterias passadas por meio de um botão adicional.
+5. Caso deseje, poderá visualizar as baterias passadas (caso existam) por meio de um botão adicional.
 
 ### Interface
 
